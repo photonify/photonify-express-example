@@ -32,7 +32,6 @@ app.post("/filesystem_test", upload.single("photo"), async (req, res) => {
 app.post("/s3_test", upload.single("photo"), async (req, res) => {
   if (req.file) {
     const result = await photonify.processFiles([req.file.buffer], {
-      outputDest: path.join(process.cwd(), "tmp_resized_images"),
       storage: "s3",
       s3Bucket: "photonify",
       s3Config: {
