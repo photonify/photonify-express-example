@@ -12,7 +12,9 @@
   "dependencies": {
     "dotenv": "16.4.1",
     "express": "4.18.2",
-    "multer": "^1.4.5-lts.1"
+    "multer": "^1.4.5-lts.1",
+    "photonify": "^3.0.0",
+    "sharp": "^0.33.2"
   },
   "devDependencies": {
     "@types/express": "4.17.21",
