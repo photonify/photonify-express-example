@@ -1893,10 +1893,10 @@ path-to-regexp@0.1.7:
   resolved "https://registry.yarnpkg.com/path-to-regexp/-/path-to-regexp-0.1.7.tgz#df604178005f522f15eb4490e7247a1bfaa67f8c"
   integrity sha512-5DFkuoqlv1uYQKxy8omFBeJPQcdoE07Kv2sferDCrAq1ohOU+MSDswDIbnx3YAM60qIOnYa53wBhXW0EbMonrQ==
 
-photonify@^3.0.4:
-  version "3.0.4"
-  resolved "https://registry.yarnpkg.com/photonify/-/photonify-3.0.4.tgz#6774f0a53f752d268ce09c6dc5569508349e4fe8"
-  integrity sha512-aJ4ahHB/jrl6SkcYerV3K6PPvHuwCI8DWQaYNylBOtV2cUD2zdt01kQCIy9sC5m2jPCtTPZfA8y2vRR1dt3kCA==
+photonify@^3.0.5:
+  version "3.0.5"
+  resolved "https://registry.yarnpkg.com/photonify/-/photonify-3.0.5.tgz#23e3fd2c0e921467fbc22c46293266cbeb9c827e"
+  integrity sha512-Wy9ZCLHacNdWIgHruc7ZJO94mzNLjZnZlRocmlrP2zR1rfGNzwlJT/qHUT8Nx7blakYSIj5iPULM0Vt1jlPy+g==
   dependencies:
     "@aws-sdk/client-s3" "^3.499.0"
     sharp "^0.33.2"
