@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Image Upload</title>
+  </head>
+  <body>
+    <h2>Filesystem Test</h2>
+
+    <div style="margin-top: 20px">
+      <form
+        action="/filesystem_test"
+        method="POST"
+        enctype="multipart/form-data"
+      >
+        <input type="file" name="photo" />
+        <button type="submit">Upload Photo</button>
+      </form>
+    </div>
+
+    <h2>S3 Test</h2>
+
+    <div>
+      <form action="/s3_test" method="POST" enctype="multipart/form-data">
+        <input type="file" name="photo" />
+        <button type="submit">Upload Photo</button>
+      </form>
+    </div>
+  </body>
+</html>
