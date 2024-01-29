@@ -2931,14 +2931,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"photonify@npm:^3.0.6":
-  version: 3.0.6
-  resolution: "photonify@npm:3.0.6"
+"photonify@npm:^3.0.10":
+  version: 3.0.10
+  resolution: "photonify@npm:3.0.10"
   dependencies:
     "@aws-sdk/client-s3": "npm:^3.499.0"
     sharp: "npm:^0.33.2"
     uuid: "npm:^9.0.1"
-  checksum: 515806b672b99bdaceab510b508dfb7fdd79785b000296ce82a904dfc8586a5451e5db3753a1de6ab07c3720bfb87331facce288b424ddd395f6a1e0f2ed400f
+  checksum: e7930336bb958f9a67413f9f2b4caa81730e46cece0a0854d91c000bda3f34a12b37a167c8918ab7506778f920360cefff8ca9cedf77dc5f4e29b1af176a23b9
   languageName: node
   linkType: hard
 
@@ -2952,7 +2952,7 @@ __metadata:
     express: "npm:4.18.2"
     multer: "npm:^1.4.5-lts.1"
     nodemon: "npm:3.0.3"
-    photonify: "npm:^3.0.6"
+    photonify: "npm:^3.0.10"
     sharp: "npm:^0.33.2"
     ts-node: "npm:10.9.2"
     typescript: "npm:^5.3.3"
