@@ -2,7 +2,7 @@ import express from "express";
 import dotenv from "dotenv";
 import path from "path";
 import multer from "multer";
-import photonify from "photonify";
+import { processFiles } from "photonify";
 
 const app = express();
 
@@ -18,7 +18,7 @@ app.get("/", (req, res) => {
 //Test using filesystem storage
 app.post("/filesystem_test", upload.single("photo"), async (req, res) => {
   if (req.file) {
-    const result = await photonify.processFiles([req.file.buffer], {
+    const result = await processFiles([req.file.buffer], {
       outputDest: path.join(process.cwd(), "tmp_resized_images"),
     });
 
@@ -31,7 +31,7 @@ app.post("/filesystem_test", upload.single("photo"), async (req, res) => {
 //Test using S3 storage
 app.post("/s3_test", upload.single("photo"), async (req, res) => {
   if (req.file) {
-    const result = await photonify.processFiles([req.file.buffer], {
+    const result = await processFiles([req.file.buffer], {
       storage: "s3",
       s3Bucket: "photonify",
       s3Config: {
